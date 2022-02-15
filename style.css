@@ -46,14 +46,14 @@ a, a:hover, a:active, a:visited {
   position: absolute;
   top: 0;
   left: 0;
-  right: 40px;
-  height: 40px;
+  right: 0;
+  height: 0;
   text-align: center;
 }
 
 .mobile #titleBar {
-  height: 50px;
-  right: 50px;
+  height: 0;
+  right: 0;
 }
 
 /* If there is a fullscreen button the title bar must make space for it */
@@ -204,16 +204,16 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   position: absolute;
   top: 0;
   left: 0;
-  width: 40px;
-  height: 40px;
-  padding: 5px;
+  width: 0;
+  height: 0;
+  padding: 0;
   background-color: rgb(103,115,131);
   background-color: rgba(103,115,131,0.8);
 }
 
 .mobile #sceneListToggle {
-  width: 50px;
-  height: 50px;
+  width: 0;
+  height: 0;
 }
 
 #sceneListToggle .text {
@@ -228,8 +228,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   position: absolute;
   top: 5px;
   right: 5px;
-  width: 30px;
-  height: 30px;
+  width: 0;
+  height: 0;
 }
 
 .mobile #sceneListToggle .icon {
